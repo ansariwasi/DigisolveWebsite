@@ -294,6 +294,11 @@ h2 {
   text-decoration: none;
 }
 
+.serviceboxmain{
+   display: flex;
+   flex-wrap: wrap;
+}
+
 /**Partners section**/
 .partners-section{
   text-align: center;
@@ -437,6 +442,30 @@ cite img{
 	background-color:#fcfcfc;
 }
 
+.section-more-packages{
+  font-size: 150%;
+  color: #555;
+  margin-bottom: 30px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.package-button{
+  color: #ed07b7;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.package-button:link,
+.package-button:visited{
+  color: #ed07b7;
+}
+
+.package-button:hover,
+.package-button:active{
+  color: #BD0592;
+}
+
 /** Contact us section**/
 
 .contact-section {
@@ -561,6 +590,7 @@ footer p {
 	margin-top:50px;
 	line-height:1.5;
 }
+
 
 
 
